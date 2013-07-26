@@ -1,0 +1,859 @@
+{
+  "request": {
+    "changerecord": 0,
+    "count": 55,
+    "date": "2013-07-26T11:05:13-0400",
+    "results": [
+      {
+        "disabled": false,
+        "displayname": "PELLETS PLUGS COTTON BALLS",
+        "employees": [],
+        "iconcls": " ",
+        "workcenterid": "PPCB"
+      },
+      {
+        "disabled": false,
+        "displayname": "SYNTHETIC CARDING",
+        "employees": [],
+        "iconcls": " ",
+        "workcenterid": "SYNTH"
+      },
+      {
+        "disabled": false,
+        "displayname": "BRAIDED AND ACETON",
+        "employees": [
+          "bcd1207ede7962d2bf5970d030ed6876"
+        ],
+        "iconcls": " ",
+        "workcenterid": "ACET"
+      },
+      {
+        "disabled": false,
+        "displayname": "WRAP",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "addb97a9a2dc51f9be23a69ea9fc1c61"
+        ],
+        "iconcls": " ",
+        "workcenterid": "WRAP"
+      },
+      {
+        "disabled": false,
+        "displayname": "REFLECTIVE SHIELDS",
+        "employees": [],
+        "iconcls": " ",
+        "workcenterid": "RSHLD"
+      },
+      {
+        "disabled": false,
+        "displayname": "INSP1",
+        "employees": [
+          "2fc011eaff048738918281d3374c5f11",
+          "098fbd8455cf991a87fa39a04dcb29a9",
+          "addb97a9a2dc51f9be23a69ea9fc1c61"
+        ],
+        "iconcls": " ",
+        "workcenterid": "INSP1"
+      },
+      {
+        "disabled": false,
+        "displayname": "INSP2",
+        "employees": [
+          "2fc011eaff048738918281d3374c5f11",
+          "098fbd8455cf991a87fa39a04dcb29a9",
+          "addb97a9a2dc51f9be23a69ea9fc1c61"
+        ],
+        "iconcls": " ",
+        "workcenterid": "INSP2"
+      },
+      {
+        "disabled": false,
+        "displayname": "CUT1",
+        "employees": [
+          "4c320374bd9afcb703f2c86f9ac80e54",
+          "5a7ba05f86ee62ac57464d250c44befb",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "9f5c91fb62855b24f7edf20badc9bda7",
+          "6f89e3650f420c9e43a96150f83c8347",
+          "53d21d972127a4ae90e2400ebef15777",
+          "742c97aa0c687e552a2a0148f2c019bb"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CUT1"
+      },
+      {
+        "disabled": false,
+        "displayname": "CUT2",
+        "employees": [
+          "4c320374bd9afcb703f2c86f9ac80e54",
+          "5a7ba05f86ee62ac57464d250c44befb",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "9f5c91fb62855b24f7edf20badc9bda7",
+          "6f89e3650f420c9e43a96150f83c8347",
+          "53d21d972127a4ae90e2400ebef15777",
+          "742c97aa0c687e552a2a0148f2c019bb"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CUT2"
+      },
+      {
+        "disabled": false,
+        "displayname": "REFLSHLD",
+        "employees": [
+          "283efc54d71d26ab505da0c348d0c193"
+        ],
+        "iconcls": " ",
+        "workcenterid": "REFLSHLD"
+      },
+      {
+        "disabled": false,
+        "displayname": "WINDER40",
+        "employees": [
+          "283efc54d71d26ab505da0c348d0c193",
+          "6394684c4d12342dc5ad18cdcc687b14",
+          "d54be86eef823f967597ad72b8b25d16"
+        ],
+        "iconcls": " ",
+        "workcenterid": "WINDER40"
+      },
+      {
+        "disabled": false,
+        "displayname": "CBALL1",
+        "employees": [
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "6394684c4d12342dc5ad18cdcc687b14",
+          "d54be86eef823f967597ad72b8b25d16",
+          "addb97a9a2dc51f9be23a69ea9fc1c61"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CBALL1"
+      },
+      {
+        "disabled": false,
+        "displayname": "CBALL2",
+        "employees": [
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "6394684c4d12342dc5ad18cdcc687b14",
+          "d54be86eef823f967597ad72b8b25d16",
+          "addb97a9a2dc51f9be23a69ea9fc1c61"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CBALL2"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT01",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL01"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT02",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL02"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT03",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL03"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT04",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL04"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT05",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL05"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT06",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL06"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT07",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL07"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT08",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL08"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT09",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL09"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT10",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL10"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT11",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL11"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLETT12",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "8d9d1a5a3e40d7ae900f159bf79a545e",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELL12"
+      },
+      {
+        "disabled": false,
+        "displayname": "PELLPACK",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PELLPACK"
+      },
+      {
+        "disabled": false,
+        "displayname": "PLUG",
+        "employees": [
+          "d6dc5c633dbcc03095538bbbb17e971f",
+          "b10d1ff46172d94a2aad8ceef855284e",
+          "fd8c0b8b92ec272a61fcb7a555bc9e57",
+          "ad36a61088ef9aa51d304877f8cf4bec",
+          "612aa49d8b0c2853b69e3a9ef652b38e"
+        ],
+        "iconcls": " ",
+        "workcenterid": "PLUG"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD01",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD01"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD02",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD02"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD03",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD03"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD04",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD04"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD05",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD05"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD06",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD06"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD07",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD07"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD08",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD08"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD09",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "81663898c67dbab194befbf42c8012f3",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "d54be86eef823f967597ad72b8b25d16",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD09"
+      },
+      {
+        "disabled": false,
+        "displayname": "CARD10",
+        "employees": [
+          "06bd1c4476686958aa15ac669f00e755",
+          "129d4c1b501281e81549d08fddaad741",
+          "81663898c67dbab194befbf42c8012f3",
+          "709075dcd405bdb5464126206b352444",
+          "3514b776342827d57c019a800f1ebc65",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "d54be86eef823f967597ad72b8b25d16",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "ebf097cb254dadd4a508dec1f45e5052"
+        ],
+        "iconcls": " ",
+        "workcenterid": "CARD10"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL1A",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "d54be86eef823f967597ad72b8b25d16",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "b3314474b0a84e1d475c8f31bae02429",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL1A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL1B",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "d54be86eef823f967597ad72b8b25d16",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "b3314474b0a84e1d475c8f31bae02429",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL1B"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL2A",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "b3314474b0a84e1d475c8f31bae02429",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL2A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL2B",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "b3314474b0a84e1d475c8f31bae02429",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL2B"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL3A",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "156b7b3245e476e26e3d34a71bd635de",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL3A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL3B",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "156b7b3245e476e26e3d34a71bd635de",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL3B"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL4A",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL4A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL4B",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "825e5d4d1bff747d9515f2ad087ea363",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "798857d69dd17eea97aac53c91805bd1",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL4B"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL5A",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "156b7b3245e476e26e3d34a71bd635de",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "ad323095e5882d8408e84c17faf9ab3a",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "038f29bb43aebb139a316e829a2c224c",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL5A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL5B",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "156b7b3245e476e26e3d34a71bd635de",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "ad323095e5882d8408e84c17faf9ab3a",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "038f29bb43aebb139a316e829a2c224c",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL5B"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL6A",
+        "employees": [
+          "59869e2f10af3270068c567685214a8c",
+          "ad323095e5882d8408e84c17faf9ab3a",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "038f29bb43aebb139a316e829a2c224c",
+          "1e1cd2d40ac3256b383ab807271c5aea",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL6A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL6B",
+        "employees": [
+          "ad323095e5882d8408e84c17faf9ab3a",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "038f29bb43aebb139a316e829a2c224c",
+          "1e1cd2d40ac3256b383ab807271c5aea",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL6B"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL7A",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "1e1cd2d40ac3256b383ab807271c5aea",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL7A"
+      },
+      {
+        "disabled": true,
+        "displayname": "COIL7B",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "1e1cd2d40ac3256b383ab807271c5aea",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL7B"
+      },
+      {
+        "disabled": false,
+        "displayname": "RAYON",
+        "employees": [],
+        "iconcls": " ",
+        "workcenterid": "RAYON"
+      },
+      {
+        "disabled": false,
+        "displayname": "POLY",
+        "employees": [],
+        "iconcls": " ",
+        "workcenterid": "POLY"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL5CD",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "59869e2f10af3270068c567685214a8c",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "1e1cd2d40ac3256b383ab807271c5aea",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "f077e138acc5fbb921bb44fc521ec7d5",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL5CD"
+      },
+      {
+        "disabled": false,
+        "displayname": "COIL5AB",
+        "employees": [
+          "3f21870fc1e0a77d5e6abf9e5541c7e7",
+          "283efc54d71d26ab505da0c348d0c193",
+          "156b7b3245e476e26e3d34a71bd635de",
+          "3caac9e7bc8a1900854010036aa738d5",
+          "ad323095e5882d8408e84c17faf9ab3a",
+          "935640c3a14197b53db7c7347bd051f1",
+          "02dc89d9cac6c18d8d09a5c7cfafbc3c",
+          "240143236b3f49f5c5f9a00e1104dcb5",
+          "038f29bb43aebb139a316e829a2c224c",
+          "3cfb227abc4bcbbc0cad3aba653b97bd",
+          "06f6a489209115c5cef3f45036aad3ec",
+          "0ea25fec56c6a6ebbd99c39e81643dda",
+          "911523961771fc320bc58428ca23dbd8",
+          "798857d69dd17eea97aac53c91805bd1",
+          "742c97aa0c687e552a2a0148f2c019bb",
+          "38a1e0bba47cf29941ea5e2054132a23",
+          "5dbbfe8795821b64b4a79445526e6ece"
+        ],
+        "iconcls": " ",
+        "workcenterid": "COIL5AB"
+      }
+    ],
+    "version": 1
+  }
+}
