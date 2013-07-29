@@ -70,7 +70,7 @@ Define the client side application stack & tool set for web development at bmc.
 	4. Dust
 5. Interaction
 	1. Hammer.js
-	2. 
+	2. Platform.js(Polymer-project)
 4. Module System
 	1. Transitive Dependencies?
 	2. Lazy Load?
