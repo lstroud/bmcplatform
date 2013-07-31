@@ -13,6 +13,7 @@ Define the client side application stack & tool set for web development at bmc.
 * Web standards compliant, Supports evergreen browsers across platforms
 * Smart client application architecture
 	* Client has behavoir and state.  It is independant of server.
+	* SPA: single page applications
 	* Restful [RMM](http://martinfowler.com/articles/richardsonMaturityModel.html):
 		* HTTP as transport
 		* Everything is a resource addressable by URI
@@ -45,13 +46,23 @@ Define the client side application stack & tool set for web development at bmc.
 * FAST.  Application pages should load quickly and maintain 60 frames per second though usage. Utilize hardware acceleration and other best practices to ensure a fast feeling.
 * Aggressively adopt new standards like: shadow dom, es6, custom elements, regions, flex box, etc
 
-#Stack
-1. Standards
+## Standards
 	1. HTML5
 	2. CSS3 (with an eye toward CSS4)
 	3. ECMAScript 5.1 strict mode (with an eye toward ES6) 
 	4. Web Sockets??
 	4. ??
+
+
+#Stack
+The modern client stack is broken down into the following components:
+* Module System
+* Build System
+* Template Library
+* Data Binding
+* Sync
+* Widgets
+* Testing
 2. Languages
 	1. Javascript
 	2. Should we adopt a compile to javascript language?
@@ -120,6 +131,8 @@ Define the client side application stack & tool set for web development at bmc.
 
 
 #Bookmarks / Reading List / To Check Out
+* Client Stacks - http://dailyjs.com/2013/02/04/stack/
+* Resthub Backbone Stack - http://resthub.org/backbone-stack.html
 * http://ryanflorence.com/2013/es6-modules-and-browser-app-delivery/
 * http://9elements.com/io/index.php/hybrid-javascript-apps/
 * http://net.tutsplus.com/tutorials/javascript-ajax/building-apps-with-the-yeoman-workflow/
@@ -131,5 +144,7 @@ Define the client side application stack & tool set for web development at bmc.
 * http://dybskiy.com/js-mvc-angular-vs-ember/
 * http://net.tutsplus.com/tutorials/javascript-ajax/important-considerations-when-building-single-page-web-apps/
 * http://speckyboy.com/2012/08/21/15-more-responsive-css-frameworks-boilerplates-worth-considering/
+* http://www.slideshare.net/SC5/building-single-page-applications-16543203
+* https://github.com/yeoman/yeoman/wiki/Yeoman-and-Express
 * 
 
