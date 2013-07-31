@@ -1,43 +1,43 @@
 #Purpose
 Define the client side application stack & tool set for web development at bmc.
 #Principles
-* DRY
+* DRY: Architecture should support 'Don't Repeat Yourself'
 * Readable: easy to read, understand, and maintain
 * Responsive: Support desktop, tablet, and mobile
+* Upgradable: Should be able to maintain applications such that they can be simple upgraded to the latest version of their dependencies
 * Modular 
 	* Loose Coupling, High Cohesion
-	* Use tools, libraries, and frameworks that seek to do one thing and do it well
+	* Prefer tools, libraries, and frameworks that seek to do one thing and do it well
 	* Application structure should encourage reuse
 	* Application artifacts should be loadable on demand via URI
 * Prefer standards and 3rd party libraries
-* Web standards compliant, Supports evergreen browsers across platforms
-* Smart client application architecture
+* Applications must be web standards compliant
+	* define standards??
+* Applications will support evergreen browsers that support these evolving standards.  Browsers will be tested to ensure standards compatibility. 
+* Smart Client Application Architecture
 	* Client has behavoir and state.  It is independant of server.
-	* SPA: single page applications
 	* Restful [RMM](http://martinfowler.com/articles/richardsonMaturityModel.html):
 		* HTTP as transport
 		* Everything is a resource addressable by URI
 		* Use HTTP Verbs appropriately
 		* HATEOAS: hypertext as the engine of application state 
-	* Application state is on the client and addressable by URI
-	* Cacheable & Cache aware
+	* Cacheable & Cache aware: Appropriate tags, decachers, etc should be used such that caching servers & browsers refresh at the appropriate time.
 	* Layered: client cannot tell whether it is connected directly to the end server
 	* Defined API: client and services can evolve independantly based on defined contracts
 * Structured: structure should be consistent across applications
 * Tool Independant: specific tools should not be reasonably required to maintain applications or author applications
 
 #Goals
-* Use web technologies as intended (HTML:structure, CSS: look, JS: behavoir)
-* Seperate Structure and Skin, Container and Content 
+* Seperate Structure and Skin, Container and Content. Use web technologies as intended (HTML:structure, CSS: look, JS: behavoir)
 * Acheive Reuse of UI designs, code, libraries, and components across applications
 	* Support Mixins/Plugins
 	* Support UI Composition
 	* Support Extension
 	* Support resuse Models, Views, Controllers, View Models, etc across applications and independently.  For example, there may be a single SalesOrderModel that multiple applications reference.
-* Platform should be easy to evolve as technology changes, new projects supercede old projects, and new standards enable new techniques
+* Application state addressable by URI
+* Platform should be easy to evolve as technology changes, new projects supercede old projects, new tools supercede old tools, and new standards enable new techniques
 * Utilize a Grid System for layout and design
-* Platform design should support evolving client and server independantly.
-* Platform libraries (internal and 3rd party) should be centralized to encourage cross application upgrades.
+* Dependencies (internal and 3rd party) should be centrally managed (or hosted) to simplify cross application upgrades.
 * Browser inspectors should be supported for debuging & diagnosing applications
 * Javascript should use "strict mode"
 * Linters should be used to ensure standard compliance
@@ -45,6 +45,12 @@ Define the client side application stack & tool set for web development at bmc.
 * Use feature detection instead of user agent sniffing
 * FAST.  Application pages should load quickly and maintain 60 frames per second though usage. Utilize hardware acceleration and other best practices to ensure a fast feeling.
 * Aggressively adopt new standards like: shadow dom, es6, custom elements, regions, flex box, etc
+
+##Minimum Hardware Performance Requirements
+Need to define a minimum requirement for Sunspider/V8 benchmark.
+* Mobile
+* Tablet
+* Workstation
 
 ## Standards
 	1. HTML5
@@ -59,10 +65,10 @@ The modern client stack is broken down into the following components:
 * Module System
 * Build System
 * Template Library
-* Data Binding
-* Sync
-* Widgets
-* Testing
+* MV* Framework
+* Communication
+* Style Library/Framework
+* Testing Library/Framework
 2. Languages
 	1. Javascript
 	2. Should we adopt a compile to javascript language?
@@ -74,10 +80,11 @@ The modern client stack is broken down into the following components:
 	3. Ember (MVC)
 	4. Meteor
 	5. Epitome
+	6. YUI
 4. Templating
 	1. Mustache
 	2. Underscore
-	3. handleBar
+	3. HandleBar
 	4. Dust
 5. Interaction
 	1. Hammer.js
@@ -91,7 +98,8 @@ The modern client stack is broken down into the following components:
 	4. Script Loader?
 		1. Require?
 5. Application Structure
-	1. Framework Provides?
+	1. May come from the build tool
+	2. Framework Provides?
 	2. ??
 6. Look & Feel
 	1. CSS Frameworks
@@ -120,6 +128,7 @@ The modern client stack is broken down into the following components:
 7. Build, Management & Deployment
 	1. Boilerplates
 		1. HTML5Boilerplate
+		2. Yoeman Generators
 		2. ??
 	2. Build
 		1. Yeoman
