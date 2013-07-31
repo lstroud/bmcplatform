@@ -45,6 +45,21 @@ Define the client side application stack & tool set for web development at bmc.
 * Use feature detection instead of user agent sniffing
 * FAST.  Application pages should load quickly and maintain 60 frames per second though usage. Utilize hardware acceleration and other best practices to ensure a fast feeling.
 * Aggressively adopt new standards like: shadow dom, es6, custom elements, regions, flex box, etc
+* A solution for web applications that need near realtime data updates
+* A solution for kiosk style application that needs to show users what has changed since they last interacted with the application
+* A notification mechanism for alerting users to critical events
+* Faster development through reuse (as opposed to gui componentization) of high level screen designs and their implementation
+
+##Delivery
+We will deliver:
+* A benchmark to determine minumum supported hardware
+* The list of standards that will be the basis of broad browser compatibility
+* A list of tools that will be used in the development process
+* A list of libraries and frameworks that will become the backbone of the architecture
+* Process diagrams for application maintenance
+* Deployment diagrams for applications, tools, and other dependencies
+* A standardized application structure
+* A development process document along with sample code
 
 ##Minimum Hardware Performance Requirements
 Need to define a minimum requirement for Sunspider/V8 benchmark.
