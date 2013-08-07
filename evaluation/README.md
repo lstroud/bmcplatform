@@ -13,6 +13,7 @@ Eval app should be a single page Master Detail with actions/edits
     * Embeded Visualizations
   * Popover
   * Input Elements (date,time,text,etc)
+  * Tag Lists
   * Detail section
     * Data edits and propogation
   * Notifications & Alerts
