@@ -56,7 +56,7 @@ Apps may have 'kiosk' mode where they need to stay up to date without refresh
 * Code Organization & Patterns
   * How easy/difficult is it to use proper code seperation and design patterns
   * Is it enforcable?  Requires a style guide and reviews?
-* Ugrades
+* Upgrades
   * is there a forseeable way to construct apps such that library upgrades can occur by updating a central definition?
   * how difficult will the apps be to upgrade as web standards change?
   * how difficult will the apps be to upgrade as the business requirements change?
