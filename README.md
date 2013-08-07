@@ -49,6 +49,7 @@ Define the client side application stack & tool set for web development at bmc.
 * A solution for kiosk style application that needs to show users what has changed since they last interacted with the application
 * A notification mechanism for alerting users to critical events
 * Faster development through reuse (as opposed to gui componentization) of high level screen designs and their implementation
+* Use long established code organization design patterns to create a maintainable reusable codebase
 
 ##Delivery
 We will deliver:
@@ -91,6 +92,27 @@ The modern client stack is broken down into the following components:
 		2. Dart
 3. Application Framework
 	1. Backbone (MVP)
+		1. Marionette
+		2. Rivets.js? - http://rivetsjs.com
+		3. backbone.validation? - http://thedersen.com/projects/backbone-validation/
+		4. backbone.layoutmanager? - http://layoutmanager.org/
+		5. backbone.modelbinder? - https://github.com/theironcook/Backbone.ModelBinder
+		6. backbone.stickit? - http://nytimes.github.io/backbone.stickit/
+		7. backbone.syphon? - https://github.com/derickbailey/backbone.syphon
+		8. backbone.deepmodel? - https://github.com/powmedia/backbone-deep-model
+		9. backbone-fetch-cache? - https://github.com/mrappleton/backbone-fetch-cache
+		10. backbone.localstorage? - https://github.com/jeromegn/Backbone.localStorage
+		11. backbone.iobind? - socket.io - https://github.com/logicalparadox/backbone.iobind
+		12. backbone.query? - https://github.com/davidgtonge/backbone_query
+		13. query engine? - https://github.com/bevry/query-engine
+		14. backbone.projections? - https://github.com/andreypopp/backbone.projections
+		15. backbone.databinding?
+		16. collectionview?
+		17. viewevents?
+		18. knockback?
+		19. backbone.notifications? - https://github.com/fatiherikli/backbone-notifications
+		20. 
+		13. 
 	2. Angular (MVVM)
 	3. Ember (MVC)
 	4. Meteor
@@ -101,9 +123,6 @@ The modern client stack is broken down into the following components:
 	2. Underscore
 	3. HandleBar
 	4. Dust
-5. Interaction
-	1. Hammer.js
-	2. Platform.js(Polymer-project)
 4. Module System
 	1. Transitive Dependencies?
 	2. Lazy Load?
@@ -152,6 +171,17 @@ The modern client stack is broken down into the following components:
 	3. Package Manager
 		1. Bower
 		2. Component
+##Misc Libraries
+* Dates
+  * Moment.js? - http://momentjs.com
+* Validation
+* Local Caching
+* Gauranteed Delivery/Sync Later/Transactional Send
+* Key Binding
+* Touch
+	* Hammer.js
+	* Platform.js(Polymer-project)
+* 
 
 
 #Bookmarks / Reading List / To Check Out
