@@ -201,4 +201,5 @@ The modern client stack is broken down into the following components:
 * http://www.slideshare.net/SC5/building-single-page-applications-16543203
 * https://github.com/yeoman/yeoman/wiki/Yeoman-and-Express
 * Javascript coding ~standards - https://github.com/rwldrn/idiomatic.js
+* Framework comparisions - http://engineering.nulogy.com/posts/why-we-went-with-marionette-dot-js/
 
