@@ -185,6 +185,7 @@ The modern client stack is broken down into the following components:
 
 
 #Bookmarks / Reading List / To Check Out
+* Angular Best Practices / Code Structure - http://trochette.github.io/Angular-Design-Patterns-Best-Practices/#/intro
 * Client Stacks - http://dailyjs.com/2013/02/04/stack/
 * Resthub Backbone Stack - http://resthub.org/backbone-stack.html
 * http://ryanflorence.com/2013/es6-modules-and-browser-app-delivery/
