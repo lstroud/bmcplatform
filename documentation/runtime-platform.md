@@ -38,41 +38,17 @@ As long as these characteristics, metrics, and standards are fullfilled BMC Web 
 ## Browser Platform
 Acid Test 3: 100%
 * HTML5 
-	* Offline
-		* localStorage
-		* application cache
-		* online/offline events
-	* Web Sockets
-	* File API
-	* Blob URLs
-	* HTML 5 Form Elements
-	* Video & Audio Element
-	* PNG Alpha Transparency
-	* Data URLs
+	* Offline Support - localStorage, application cache, online/offline events
+	* Events - Hashchange, Touch
+	* Tags - Content Editable, Input Types (range, date, time, number, color), Input placeholder attribute, Progress & Meter Tags, Form Validation, dataset & data-* attributes, async & defer attribute for external scripts, audio & video tags, Canvas, PNG Alpha Transparency, Data URLs
+	* Javascript API & DOM - History API, XHR2, Geolocation, Webworkers, Web Sockets, JSON, Notifications, Drag & Drop, requestAnimationFrame, classlist, queryselector/all
+	* CORS
 	* SVG (inline)
-	* Canvas
-	* 
-* HTML Canvas
-* HTML Media Capture
-* CSS Columns
-* CSS Flex Box
-* CSS Web Fonts
-* CSS Text Wrapping
-* 
-* CSS3
-	* Media Queries
-	* Selectors
-	* Color Module 
-	* Flexible Box Layout Module
-	* CSS3 Transforms
-	* CSS3 Box Shadow
-	* CSS3 Transitions
-	* CSS Gradients
-	* CSS3 Animation
-	* CSS3 Box-Sizing
-	* CSS3 3D Transforms
-	* 
-
+* CSS Standards
+	* CSS 2.1 and below
+	* CSS3 Modules - Color, Selectors, Media Queries, Syle Attributes, Multi Column Layout, 2D Transformations, Transitions, Animation, Flexible Box Layout, Fonts Level 3, Text overflow, 3D Transformations, Values & Units, SVG in CSS backgrounds, rem units, Outline, Multiple backgrounds, getComputedStyle, Web Fonts, Opacity, Box Shadow, calc, Border Radius, Text Shadow, Gradients, Border, Generated Content, Images, Box-Sizing
+	* Browser should hardware accelerate transforms, transitions, etc to GPU.
+* Future - html templates, scoped css, shadow dom, support for all html5 input types, pointer events
 
 
 ## Performance Benchmark Links
