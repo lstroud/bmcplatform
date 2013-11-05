@@ -203,3 +203,14 @@ The modern client stack is broken down into the following components:
 * Javascript coding ~standards - https://github.com/rwldrn/idiomatic.js
 * Framework comparisions - http://engineering.nulogy.com/posts/why-we-went-with-marionette-dot-js/
 
+#AngularJS References
+* Guide - http://raibledesigns.com/rd/entry/developing_with_angularjs_part_i
+* Video - http://parleys.com/share.html#play/5148922b0364bc17fc56c91b
+* Videos - http://egghead.io/lessons
+* http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background
+* App Structure - http://briantford.com/blog/huuuuuge-angular-apps.html
+* App Structure - http://cliffmeyers.com/blog/2013/4/21/code-organization-angularjs-javascript
+* App Structure - http://codingsmackdown.tv/blog/2013/04/19/angularjs-modules-for-great-justice/
+* http://kirkbushell.me/when-to-use-directives-controllers-or-services-in-angular/
+* Presentation - http://trochette.github.io/Angular-Design-Patterns-Best-Practices/#/intro
+* Ebook - http://henriquat.re/
