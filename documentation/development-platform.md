@@ -10,7 +10,7 @@
 * Date - moment.js?
 * Validation? (Style & behavoir)
 * Client Caching
-* Gauranteed Delivery (offline support)
+* Guaranteed Delivery (offline support)
 * Key Binding
 * Touch
 
