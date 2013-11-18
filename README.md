@@ -215,3 +215,4 @@ The modern client stack is broken down into the following components:
 * http://kirkbushell.me/when-to-use-directives-controllers-or-services-in-angular/
 * Presentation - http://trochette.github.io/Angular-Design-Patterns-Best-Practices/#/intro
 * Ebook - http://henriquat.re/
+* Guide on writing components - http://briantford.com/blog/angular-bower.html
