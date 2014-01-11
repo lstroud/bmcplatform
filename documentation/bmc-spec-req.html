@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+        <!-- // <script src="modernizr.js"></script> -->
+        <script src="modernizr-3.js"></script>
+        <script src="modernizr3_dictionary.js" type="text/javascript" charset="utf-8"></script>
+        <style type="text/css" media="screen">
+            .testresults {
+                width:90%;
+            }
+            li.testresult{
+                margin: 3pt;
+                -webkit-flex: 1 1 auto;
+                flex: 1 1 auto;
+                width:175pt;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                -webkit-padding-start:0;
+                padding: 3pt;
+                padding-left: 8pt;
+                padding-right: 8pt;
+                line-height: 18pt;
+                background-color: rgba(148, 84, 78, 1);
+                border-radius: 3px;
+                color: white;
+                text-shadow: rgba(0,0,0,0.5) 1px 0, rgba(0,0,0,0.3) 0 1px, rgba(255,255,255,0.5) 0 -1px, rgba(0,0,0,0.3) 1px 2px;
+                display: inline-block;
+            }
+            li.testresult.passed {
+                background-color: rgba(78, 148, 95, 1);
+            }
+            a{
+                text-decoration: none;
+            }
+            .flexwrap .testresultdetaillist{
+                  display: -webkit-flexbox;
+                  display: -ms-flexbox;
+                  display: -webkit-flex;
+                  display: flex;
+                  flex-flow: row wrap;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  justify-content: center;
+
+            }
+            #accordion{
+                margin: 1em auto;
+                width: 85%;
+            }
+            .panel-heading{
+                cursor: pointer;
+            }
+            #passfailcontent{
+                text-align: center;
+                font-size: 20pt;
+            }
+            #passfail{
+                text-align: center;
+                width:100%;
+                height:50pt;
+                padding: 5pt;
+                line-height: 40pt;
+            }
+            #passfailglyph.glyphicon{
+                float: left;
+                font-size: 30pt;
+                text-align: left;
+                display: inline-block;
+                line-height: 40pt;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="passfail">
+           <div id="passfailglyph"></div>
+           <div id="passfailcontent"></div>
+       </div>
+       <div class="panel-group" id="accordion">
+           <div class="panel panel-default">
+                <!-- <input id="testresultbtn" name="showresults" type="checkbox" />
+                <label for="testresultbtn">Required Features</label> -->
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseOne" >
+                  <h4 class="panel-title">
+                    <!-- <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"> -->
+                      Required Features
+                    <!-- </a> -->
+                  </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <ul id="testresultdetaillist" class="testresultdetaillist">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <!-- <input id="testresultbtn" name="showresults" type="checkbox" />
+                <label for="testresultbtn">Required Features</label> -->
+                <div class="panel-heading" data-toggle="collapse" data-target="#collapseTwo" >
+                  <h4 class="panel-title">
+                    <!-- <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"> -->
+                      Planned & Upcoming Features
+                    <!-- </a> -->
+                  </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <ul id="testresultdetaillist2" class="testresultdetaillist">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+         <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script type="text/javascript" charset="utf-8">
+            $( document ).ready(function() {
+                //var bmc_modernizr_list = ['js', 'flexbox', 'canvas', 'canvastext', 'geolocation', 'hashchange', 'history', 'draganddrop', 'websockets', 'rgba', 'hsla', 'multiplebgs', 'backgroundsize', 'borderimage', 'borderradius', 'boxshadow', 'textshadow', 'opacity', 'cssanimations', 'csscolumns', 'cssgradients', 'csstransforms', 'csstransforms3d', 'csstransitions', 'fontface', 'generatedcontent', 'video', 'audio', 'localstorage', 'sessionstorage', 'webworkers', 'applicationcache', 'svg', 'inlinesvg', 'adownload', 'audiodata', 'cors', 'contenteditable', 'cookies', 'boxsizing', 'csscalc', 'display-table', 'cssfilters', 'lastchild', 'mediaqueries', 'cssresize', 'dataview', 'classlist', 'dataset', 'datalistelem', 'progressbar', 'meter', 'strictmode', 'filereader', 'formattribute', 'placeholder', 'formvalidation', 'getusermedia', 'sandbox', 'seamless', 'srcdoc', 'json', 'eventsource', 'xhr2', 'notification', 'performance', 'raf', 'scriptasync', 'scriptdefer', 'unicode', 'datauri'];
+                var bmc_modernizr_list =  ['adownload', 
+                        'applicationcache', 
+                        'audio', 
+                        'audiopreload', 
+                        'backgroundsize', 
+                        'borderimage', 
+                        'borderradius', 
+                        'boxshadow', 
+                        'boxsizing', 
+                        'canvas', 
+                        'canvastext', 
+                        'checked', 
+                        'classlist', 
+                        'contenteditable', 
+                        'cookies', 
+                        'cors', 
+                        'cssanimations', 
+                        'csscalc', 
+                        'csscolumns',
+                        'cssgradients', 
+                        'csstransforms', 
+                        'csstransforms3d', 
+                        'csstransitions', 
+                        'datalistelem', 
+                        'dataset', 
+                        'dataview', 
+                        'displaytable', 
+                        'documentfragment', 
+                        'draganddrop', 
+                        'ellipsis', 
+                        'es5array', 
+                        'es5date', 
+                        'es5function', 
+                        'es5object', 
+                        'es5string', 
+                        'filereader', 
+                        'flexbox', 
+                        'flexwrap', 
+                        'fontface', 
+                        'generatedcontent', 
+                        'geolocation', 
+                        'getrandomvalues', 
+                        'hashchange', 
+                        'history', 
+                        'hsla', 
+                        'inlinesvg', 
+                        'inputformaction', 
+                        'json', 
+                        'lastchild', 
+                        'localstorage', 
+                        'mediaqueries', 
+                        'multiplebgs', 
+                        'notification', 
+                        'nthchild', 
+                        'opacity', 
+                        'pagevisibility', 
+                        'performance', 
+                        'placeholder', 
+                        'preserve3d', 
+                        'progressbar', 
+                        'requestanimationframe', 
+                        'rgba', 
+                        'sandbox', 
+                        'scriptasync', 
+                        'scriptdefer', 
+                        'sessionstorage', 
+                        'siblinggeneral', 
+                        'srcdoc', 
+                        'strictmode', 
+                        'svg', 
+                        'target', 
+                        'template', 
+                        'textareamaxlength', 
+                        'textshadow', 
+                        'typedarrays', 
+                        'unicode', 
+                        'video', 
+                        'websockets', 
+                        'webworkers', 
+                        'xhr2', 
+                        'xhrresponsetype', 
+                        'xhrresponsetypearraybuffer', 
+                        'xhrresponsetypeblob', 
+                        'xhrresponsetypedocument', 
+                        'xhrresponsetypejson', 
+                        'xhrresponsetypetext'].sort();
+                var coming_soon_list = [
+                        'cssfilters', 
+                        'csspseudoanimations', 
+                        'csspseudotransitions', 
+                        'cssresize', 
+                        'eventsource', 
+                        'directory', 
+                        'formattribute', 
+                        'formvalidation', 
+                        'getusermedia', 
+                        'overflowscrolling', 
+                        'oninput', 
+                        'peerconnection', 
+                        'unicoderange', 
+                        'search', 
+                        'promises', 
+                        'datauri', 
+                        'displayrunin', 
+                        'regions',
+                        'seamless'].sort();
+
+                var mlist = document.getElementById('testresultdetaillist');
+                bmc_modernizr_list.forEach(function(mid){
+                    mlist.insertAdjacentHTML('beforeend', '<a href="' + ModernizrDict.get_href(mid) + '" target="_blank"><li class="testresult ' + (Modernizr[mid] ? 'passed':'failed') + '">' +ModernizrDict.get_name(mid) + '</li></a>');
+                });
+                var mlist2 = document.getElementById('testresultdetaillist2');
+                coming_soon_list.forEach(function(mid){
+                    mlist2.insertAdjacentHTML('beforeend', '<a href="' + ModernizrDict.get_href(mid) + '" target="_blank"><li class="testresult ' + (Modernizr[mid] ? 'passed':'failed') + '">' +ModernizrDict.get_name(mid) + '</li></a>');
+                });
+
+                var passed = true;
+                bmc_modernizr_list.forEach(function(item){
+                    try{
+                    if(!Modernizr[item])
+                        passed = false;
+                    } catch(e){}
+                });
+                console.log("Passed: " + passed);
+                var pfc = document.getElementById("passfailcontent");
+                var pf = document.getElementById("passfail");
+                var pfg = document.getElementById("passfailglyph");
+                pfc.innerHTML = (passed)?'Passed All Requirements':'Failed Some Browser Requirements';
+                pfg.classList.add("glyphicon", "glyphicon-ok-sign");
+                if(passed){
+                    pf.classList.add("alert", "alert-success");
+                } else {
+                    pf.classList.add("alert", "alert-danger");
+                }
+
+                // $('.panel-heading').click(function(){
+                //     this.collapse('toggle');
+                // });
+                // $('.collapse').collapse()
+
+            });
+        </script>
+       
+        
+    </body>
+</html>
