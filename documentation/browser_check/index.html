@@ -8,10 +8,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
 
         <!-- Optional theme -->
-        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,10 +21,9 @@
         <![endif]-->
 
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+        <script src="js/underscore-min.js"></script>
         <!-- // <script src="modernizr.js"></script> -->
-        <script src="modernizr-3.js"></script>
-        <script src="modernizr3_dictionary.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/modernizr-3.js"></script>
         <style type="text/css" media="screen">
             .testresults {
                 width:90%;
@@ -62,6 +61,9 @@
                   flex-flow: row wrap;
                   flex-direction: row;
                   flex-wrap: wrap;
+                  -webkit-flex-wrap: wrap;
+                  -webkit-flex-direction: row;
+                  -webkit-justify-content: center;
                   justify-content: center;
 
             }
@@ -110,6 +112,9 @@
                 </div>
                 <div id="collapseOne" class="panel-collapse collapse in">
                     <div class="panel-body">
+                        <p>
+                            The features in the section are currently being used, will be used in the short term, or are available across browser already. In some cases, there are polyfills available that can enable the feature in browsers that do not yet support it.  Obviously, it is desired to be using a browser platform that maximizes the number of these features that are available natively.
+                        </p>
                         <ul id="testresultdetaillist" class="testresultdetaillist">
                         </ul>
                     </div>
@@ -128,6 +133,9 @@
                 </div>
                 <div id="collapseTwo" class="panel-collapse collapse in">
                     <div class="panel-body">
+                        <p>
+                            The features in this section are features that would like to take advantage of in in the mid to longer term.  In some cases, there are polyfills available that can enable the feature in browsers that do not yet support it.  Obviously, it is desired to be using a browser platform that maximizes the number of these features that are available natively.
+                        </p>
                         <ul id="testresultdetaillist2" class="testresultdetaillist">
                         </ul>
                     </div>
@@ -135,13 +143,14 @@
             </div>
 
         </div>
-         <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="js/modernizr3_dictionary.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.js"></script>
         <!-- Latest compiled and minified JavaScript -->
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script type="text/javascript" charset="utf-8">
             $( document ).ready(function() {
                 //var bmc_modernizr_list = ['js', 'flexbox', 'canvas', 'canvastext', 'geolocation', 'hashchange', 'history', 'draganddrop', 'websockets', 'rgba', 'hsla', 'multiplebgs', 'backgroundsize', 'borderimage', 'borderradius', 'boxshadow', 'textshadow', 'opacity', 'cssanimations', 'csscolumns', 'cssgradients', 'csstransforms', 'csstransforms3d', 'csstransitions', 'fontface', 'generatedcontent', 'video', 'audio', 'localstorage', 'sessionstorage', 'webworkers', 'applicationcache', 'svg', 'inlinesvg', 'adownload', 'audiodata', 'cors', 'contenteditable', 'cookies', 'boxsizing', 'csscalc', 'display-table', 'cssfilters', 'lastchild', 'mediaqueries', 'cssresize', 'dataview', 'classlist', 'dataset', 'datalistelem', 'progressbar', 'meter', 'strictmode', 'filereader', 'formattribute', 'placeholder', 'formvalidation', 'getusermedia', 'sandbox', 'seamless', 'srcdoc', 'json', 'eventsource', 'xhr2', 'notification', 'performance', 'raf', 'scriptasync', 'scriptdefer', 'unicode', 'datauri'];
-                var bmc_modernizr_list =  ['adownload', 
+                var bmc_modernizr_list =  [
                         'applicationcache', 
                         'audio', 
                         'audiopreload', 
@@ -164,7 +173,6 @@
                         'csstransforms', 
                         'csstransforms3d', 
                         'csstransitions', 
-                        'datalistelem', 
                         'dataset', 
                         'dataview', 
                         'displaytable', 
@@ -182,7 +190,6 @@
                         'fontface', 
                         'generatedcontent', 
                         'geolocation', 
-                        'getrandomvalues', 
                         'hashchange', 
                         'history', 
                         'hsla', 
@@ -197,9 +204,7 @@
                         'nthchild', 
                         'opacity', 
                         'pagevisibility', 
-                        'performance', 
                         'placeholder', 
-                        'preserve3d', 
                         'progressbar', 
                         'requestanimationframe', 
                         'rgba', 
@@ -212,7 +217,6 @@
                         'strictmode', 
                         'svg', 
                         'target', 
-                        'template', 
                         'textareamaxlength', 
                         'textshadow', 
                         'typedarrays', 
@@ -225,19 +229,25 @@
                         'xhrresponsetypearraybuffer', 
                         'xhrresponsetypeblob', 
                         'xhrresponsetypedocument', 
-                        'xhrresponsetypejson', 
                         'xhrresponsetypetext'].sort();
                 var coming_soon_list = [
+                        'performance', 
+                        'template', 
                         'cssfilters', 
+                        'xhrresponsetypejson', 
                         'csspseudoanimations', 
                         'csspseudotransitions', 
                         'cssresize', 
+                        'datalistelem', 
+                        'adownload', 
                         'eventsource', 
                         'directory', 
                         'formattribute', 
+                        'preserve3d', 
                         'formvalidation', 
                         'getusermedia', 
                         'overflowscrolling', 
+                        'getrandomvalues', 
                         'oninput', 
                         'peerconnection', 
                         'unicoderange', 
@@ -246,6 +256,17 @@
                         'datauri', 
                         'displayrunin', 
                         'regions',
+                        'batteryapi',
+                        'capture',
+                        'pointerevents',
+                        'stylescoped',
+                        'time',
+                        'touchevents',
+                        'webanimations',
+                        'scriptdefer',
+                        'scriptasync',
+                        'webgl',
+                        'websqldatabase',
                         'seamless'].sort();
 
                 var mlist = document.getElementById('testresultdetaillist');
@@ -269,11 +290,14 @@
                 var pf = document.getElementById("passfail");
                 var pfg = document.getElementById("passfailglyph");
                 pfc.innerHTML = (passed)?'Passed All Requirements':'Failed Some Browser Requirements';
-                pfg.classList.add("glyphicon", "glyphicon-ok-sign");
+                pfg.classList.add("glyphicon")
+                pfg.classList.add("glyphicon-ok-sign");
                 if(passed){
-                    pf.classList.add("alert", "alert-success");
+                    pf.classList.add("alert");
+                    pf.classList.add("alert-success");
                 } else {
-                    pf.classList.add("alert", "alert-danger");
+                    pf.classList.add("alert");
+                    pf.classList.add("alert-danger");
                 }
 
                 // $('.panel-heading').click(function(){
